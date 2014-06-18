@@ -28,7 +28,8 @@
 			android:ellipsize="end"
             android:lines="1"
 			android:text="Le journal du geek"
-			android:textSize="16sp"/>
+			android:textSize="16sp"
+            android:textStyle="bold" />
 
 		<TextView
 			android:id="@+id/dateTime"
@@ -51,7 +52,7 @@
 			android:layout_marginTop="16dp"
 			android:layout_below="@+id/divider"
 			android:text="Sortie de la Nexus 7.2"
-			android:textAppearance="@android:style/TextAppearance.Holo.Large"/>
+			android:textAppearance="@android:style/TextAppearance.Holo" />
 
 	</RelativeLayout>
 </RelativeLayout>
