@@ -42,9 +42,9 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(project.rootDir.parentFile.absolutePath+"/yDelouis.keystore")
+            storeFile file(project.rootDir.absolutePath+"/signature.jks")
             storePassword "***********"
-            keyAlias "ydelouis"
+            keyAlias "caksoylar"
             keyPassword "***********"
         }
     }
