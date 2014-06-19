@@ -45,6 +45,7 @@ public class ArticleFragment extends Fragment {
 		webView.getSettings().setBuiltInZoomControls(true);
 		webView.getSettings().setSupportZoom(true);
 		webView.getSettings().setDisplayZoomControls(false);
+        webView.setBackgroundColor(0x00000000);
 		setArticle(article);
 	}
 

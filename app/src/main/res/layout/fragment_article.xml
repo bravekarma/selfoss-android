@@ -12,19 +12,37 @@
 	    android:layout_toLeftOf="@+id/dateTime"
 	    android:layout_margin="16dp"
 		android:textAppearance="@android:style/TextAppearance.Holo.Medium"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp" />
 
 	<TextView
 		android:id="@+id/dateTime"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:layout_marginTop="24dp"
+	    android:layout_marginTop="12dp"
 	    android:layout_marginRight="16dp"
-	    android:layout_alignParentRight="true" />
+	    android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/title" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="@style/ArticleDivider"/>
 
 	<WebView
 		android:id="@+id/webView"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:layout_below="@+id/title" />
+		android:layout_below="@+id/divider"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp" />
 </RelativeLayout>
