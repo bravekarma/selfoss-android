@@ -29,12 +29,12 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 'android-L'
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 19
+        minSdkVersion 'L'
+        targetSdkVersion 'L'
         versionCode 18
         versionName "0.5.2"
     }
