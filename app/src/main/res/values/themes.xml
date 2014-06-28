@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<style name="Theme.Selfoss" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+	<style name="Theme.Selfoss" parent="@android:style/Theme.Material.Light.DarkActionBar">
 		<item name="android:actionBarItemBackground">@drawable/clickable_background_selfoss</item>
 		<item name="android:popupMenuStyle">@style/PopupMenu.Selfoss</item>
 		<item name="android:dropDownListViewStyle">@style/DropDownListView.Selfoss</item>
@@ -35,7 +35,7 @@
 
 	</style>
 
-	<style name="ActionBar.Solid.Selfoss" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+	<style name="ActionBar.Solid.Selfoss" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
 		<item name="android:background">@drawable/ab_solid_selfoss</item>
 		<item name="android:backgroundStacked">@drawable/ab_stacked_solid_selfoss</item>
 		<item name="android:backgroundSplit">@drawable/ab_bottom_solid_selfoss</item>
@@ -43,59 +43,59 @@
         <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
 	</style>
 
-	<style name="PopupMenu.Selfoss" parent="@android:style/Widget.Holo.ListPopupWindow">
+	<style name="PopupMenu.Selfoss" parent="@android:style/Widget.Material.ListPopupWindow">
 		<item name="android:popupBackground">@drawable/menu_dropdown_panel_selfoss</item>
 	</style>
 
-	<style name="DropDownListView.Selfoss" parent="@android:style/Widget.Holo.ListView.DropDown">
+	<style name="DropDownListView.Selfoss" parent="@android:style/Widget.Material.ListView.DropDown">
 		<item name="android:listSelector">@drawable/clickable_background_selfoss</item>
 	</style>
 
-	<style name="ActionBarTabStyle.Selfoss" parent="@android:style/Widget.Holo.ActionBar.TabView">
+	<style name="ActionBarTabStyle.Selfoss" parent="@android:style/Widget.Material.ActionBar.TabView">
 		<item name="android:background">@drawable/tab_indicator_ab_selfoss</item>
 	</style>
 
-	<style name="DropDownNav.Selfoss" parent="@android:style/Widget.Holo.Spinner">
+	<style name="DropDownNav.Selfoss" parent="@android:style/Widget.Material.Spinner">
 		<item name="android:background">@drawable/spinner_background_ab_selfoss</item>
 		<item name="android:popupBackground">@drawable/menu_dropdown_panel_selfoss</item>
 		<item name="android:dropDownSelector">@drawable/clickable_background_selfoss</item>
 	</style>
 
-	<style name="ProgressBar.Selfoss" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+	<style name="ProgressBar.Selfoss" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
 		<item name="android:progressDrawable">@drawable/progress_horizontal_selfoss</item>
 	</style>
 
-	<style name="ActionButton.CloseMode.Selfoss" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+	<style name="ActionButton.CloseMode.Selfoss" parent="@android:style/Widget.Material.ActionButton.CloseMode">
 		<item name="android:background">@drawable/btn_cab_done_selfoss</item>
 	</style>
 
-	<style name="Theme.Selfoss.Widget" parent="@android:style/Theme.Holo">
+	<style name="Theme.Selfoss.Widget" parent="@android:style/Theme.Material">
 		<item name="android:popupMenuStyle">@style/PopupMenu.Selfoss</item>
 		<item name="android:dropDownListViewStyle">@style/DropDownListView.Selfoss</item>
 	</style>
 
-	<style name="EditTextSelfoss" parent="android:Widget.EditText">
+	<style name="EditTextSelfoss" parent="android:Widget.Material.EditText">
 		<item name="android:background">@drawable/edit_text_holo_light</item>
 		<item name="android:textColor">#000000</item>
 	</style>
 
-	<style name="CheckBoxSelfoss" parent="android:Widget.CompoundButton.CheckBox">
+	<style name="CheckBoxSelfoss" parent="android:Widget.Material.CompoundButton.CheckBox">
 		<item name="android:button">@drawable/btn_check_holo_light</item>
 	</style>
 
-	<style name="RadioButtonSelfoss" parent="android:Widget.CompoundButton.RadioButton">
+	<style name="RadioButtonSelfoss" parent="android:Widget.Material.CompoundButton.RadioButton">
 		<item name="android:button">@drawable/btn_radio_holo_light</item>
 	</style>
 
-	<style name="ButtonSelfoss" parent="android:Widget.Holo.Light.Button">
+	<style name="ButtonSelfoss" parent="android:Widget.Material.Light.Button">
 		<item name="android:background">@drawable/btn_default_holo_light</item>
 	</style>
 
-	<style name="ImageButtonSelfoss" parent="android:Widget.Holo.Light.ImageButton">
+	<style name="ImageButtonSelfoss" parent="android:Widget.Material.Light.ImageButton">
 		<item name="android:background">@drawable/btn_default_holo_light</item>
 	</style>
 
-	<style name="SpinnerSelfoss" parent="android:Widget.Holo.Light.Spinner">
+	<style name="SpinnerSelfoss" parent="android:Widget.Material.Light.Spinner">
 		<item name="android:background">@drawable/spinner_background_holo_light</item>
 		<item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
 	</style>
@@ -104,19 +104,19 @@
 		<item name="android:spinnerMode">dropdown</item>
 	</style>
 
-	<style name="SpinnerDropDownItemSelfoss" parent="android:Widget.DropDownItem.Spinner">
+	<style name="SpinnerDropDownItemSelfoss" parent="android:Widget.Material.DropDownItem.Spinner">
 		<item name="android:checkMark">@drawable/btn_radio_holo_light</item>
 	</style>
 
-	<style name="ListViewSelfoss" parent="android:Widget.ListView">
+	<style name="ListViewSelfoss" parent="android:Widget.Material.ListView">
 		<item name="android:listSelector">@drawable/list_selector_holo_light</item>
 	</style>
 
-	<style name="ListViewSelfoss.White" parent="android:Widget.ListView.White">
+	<style name="ListViewSelfoss.White" parent="android:Widget.Material.Light.ListView">
 		<item name="android:listSelector">@drawable/list_selector_holo_light</item>
 	</style>
 
-	<style name="SpinnerItemSelfoss" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+	<style name="SpinnerItemSelfoss" parent="android:TextAppearance.Material.Widget.TextView.SpinnerItem">
 		<item name="android:textColor">#000000</item>
 	</style>
 
