@@ -67,7 +67,7 @@ public class ArticleFragment extends Fragment {
 	}
 
 	private void setArticleContent() {
-		String html = "<style>img{display: inline;height: auto;max-width: 100%;}</style>"+ article.getContent();
+		String html = "<style>img{display: inline;height: auto;max-width: 100%;} body{margin-left: 16px; margin-right: 16px;}</style>"+ article.getContent();
 		webView.loadData(html, "text/html", "utf-8");
 	}
 
